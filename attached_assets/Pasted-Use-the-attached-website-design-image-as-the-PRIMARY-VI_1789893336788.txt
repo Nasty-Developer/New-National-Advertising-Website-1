@@ -1,0 +1,77 @@
+Use the attached website design image as the PRIMARY VISUAL REFERENCE for the entire website.
+
+Recreate the same overall visual language, layout quality, spacing, typography hierarchy, softness, color balance, card styling and professional feel.
+
+IMPORTANT:
+
+Do NOT copy the image literally as a single screenshot.
+
+Instead, BUILD A REAL, FULLY FUNCTIONAL WEBSITE based on this design direction.
+
+The reference image represents the desired:
+- overall visual style
+- spacing
+- proportions
+- typography hierarchy
+- color palette
+- card design
+- button design
+- section structure
+- image treatment
+- navbar style
+- footer style
+- professional/minimal aesthetic
+
+Keep the design:
+- minimal
+- soft
+- professional
+- premium
+- clean
+- modern
+- trustworthy
+
+Avoid:
+- excessive animations
+- flashy effects
+- neon colors
+- huge typography
+- excessive gradients
+- 3D effects
+- complicated interactions
+- overly artistic layouts
+
+The website should feel like a real professional printing and advertising company.
+
+IMPORTANT:
+Do not simply create one static page that looks like the screenshot.
+
+Implement the design properly in React/TypeScript with reusable components and responsive behavior.
+
+The website must actually work.
+
+Use the real New National Advertising business information and services already provided.
+
+Make the following functional:
+
+- Navigation
+- Mobile menu
+- Service sections
+- Quote form
+- WhatsApp button
+- Call button
+- Email button
+- Responsive layout
+- Smooth scrolling
+- Hover states
+- Subtle scroll animations
+
+Use the reference image as the DESIGN SYSTEM, not as a static background.
+
+Preserve the clean, soft and professional character of the reference throughout the entire website.
+
+Before finishing, inspect the complete website at desktop, tablet and mobile widths and fix any spacing, alignment, overflow or responsiveness problems.
+
+Do not stop at a rough approximation.
+
+Make the implementation polished and production-quality.

@@ -1,6 +1,6 @@
 import { FormEvent, useEffect, useRef, useState } from 'react';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
-import { ArrowRight, Check, ChevronDown, FileText, Layers3, Mail, MapPin, Menu, MessageCircle, PenLine, Phone, Printer, Ruler, ScanLine, Signpost, Sparkles, X } from 'lucide-react';
+import { ArrowRight, Check, ChevronDown, Clock3, Factory, FileText, Layers3, Mail, MapPin, Menu, MessageCircle, PenLine, Phone, Printer, Ruler, ScanLine, ShieldCheck, Signpost, Sparkles, X } from 'lucide-react';
 import { ErrorBoundary } from '@/components/error-boundary';
 import { Toaster } from '@/components/ui/toaster';
 import { TooltipProvider } from '@/components/ui/tooltip';
@@ -118,19 +118,27 @@ function Logo() {
 
 function HeroVisual() {
   return (
-    <div className="hero-visual relative mx-auto h-[390px] w-full max-w-[500px] sm:h-[470px]" data-testid="visual-print-signage">
-      <div className="absolute right-[5%] top-[9%] h-[68%] w-[66%] rounded-2xl border border-border bg-secondary p-5 shadow-[0_18px_40px_hsl(218_24%_20%_/_0.07)] sm:p-7">
+    <div className="hero-visual relative mx-auto h-[390px] w-full max-w-[560px] sm:h-[470px]" data-testid="visual-print-signage">
+      <div className="hero-photo absolute right-0 top-0 h-[74%] w-[74%] overflow-hidden rounded-[1.25rem] border border-border bg-secondary shadow-[0_22px_48px_hsl(218_24%_20%_/_0.12)]">
+        <img src="/images/print-studio.jpg" alt="Representative print studio materials" className="h-full w-full object-cover" />
+        <div className="absolute inset-0 bg-[linear-gradient(180deg,transparent_52%,hsl(218_33%_17%_/_0.45))]" />
+        <span className="absolute bottom-5 left-5 rounded-full border border-white/30 bg-[#172b40]/75 px-3 py-1.5 text-[9px] font-bold uppercase tracking-[.14em] text-white">Print / signage / design</span>
+      </div>
+      <div className="absolute left-[4%] top-[14%] z-10 w-[48%] rounded-2xl border border-border bg-card/95 p-5 shadow-[0_18px_40px_hsl(218_24%_20%_/_0.1)] backdrop-blur-sm sm:p-7">
         <div className="flex items-center justify-between border-b border-border pb-4">
-          <span className="text-[10px] font-bold uppercase tracking-[.16em] text-muted-foreground">Outdoor signage</span>
+          <span className="text-[10px] font-bold uppercase tracking-[.16em] text-muted-foreground">New National</span>
           <span className="h-2.5 w-2.5 rounded-full bg-accent" />
         </div>
-        <div className="mt-12">
-          <p className="display text-4xl font-extrabold leading-[.95] tracking-[-.07em] text-foreground sm:text-5xl">Make your<br /><span className="text-primary">presence</span><br />clear.</p>
-          <div className="mt-8 h-2 w-20 rounded-full bg-accent/70" />
+        <div className="mt-10">
+          <p className="display text-3xl font-extrabold leading-[.95] tracking-[-.07em] text-foreground sm:text-4xl">Make your<br /><span className="text-primary">presence</span><br />clear.</p>
+          <div className="mt-6 h-2 w-16 rounded-full bg-accent/70" />
         </div>
-        <span className="absolute bottom-5 left-5 text-[9px] font-semibold uppercase tracking-[.14em] text-muted-foreground sm:left-7">NN / Mumbai</span>
+        <span className="absolute bottom-5 left-5 text-[9px] font-semibold uppercase tracking-[.14em] text-muted-foreground sm:left-7">Mumbai / India</span>
       </div>
-      <div className="hero-paper absolute bottom-[8%] left-[7%] h-[61%] w-[57%] rotate-[-7deg] rounded-xl border border-border bg-card p-5 sm:p-7">
+      <div className="hero-paper absolute bottom-[5%] left-[2%] z-20 h-[54%] w-[52%] rotate-[-7deg] overflow-hidden rounded-xl border border-border bg-card shadow-[0_18px_40px_hsl(218_24%_20%_/_0.16)]">
+        <img src="/images/stationery-samples.jpg" alt="Representative stationery samples" className="absolute inset-0 h-full w-full object-cover opacity-35" />
+        <div className="absolute inset-0 bg-card/65" />
+        <div className="relative h-full p-5 sm:p-7">
         <div className="absolute inset-4 rounded-lg border border-border sm:inset-6" />
         <div className="relative flex h-full flex-col justify-between">
           <div className="flex items-center justify-between">
@@ -146,8 +154,9 @@ function HeroVisual() {
             </div>
           </div>
         </div>
+        </div>
       </div>
-      <div className="absolute bottom-[2%] right-[2%] rounded-lg border border-border bg-card px-4 py-3 shadow-[0_12px_26px_hsl(218_24%_20%_/_0.09)] sm:px-5">
+      <div className="absolute bottom-[2%] right-[1%] z-30 rounded-lg border border-border bg-card px-4 py-3 shadow-[0_12px_26px_hsl(218_24%_20%_/_0.09)] sm:px-5">
         <div className="flex items-center gap-3">
           <span className="flex h-9 w-9 items-center justify-center rounded-full bg-primary/10 text-primary"><Check className="h-4 w-4" /></span>
           <span><strong className="block text-xs font-bold">Ready for production</strong><small className="text-[10px] text-muted-foreground">Material • finish • format</small></span>
@@ -190,19 +199,19 @@ function Home() {
       <header className={`site-header sticky top-0 z-40 border-b border-border/80 bg-background/95 backdrop-blur-sm ${headerScrolled ? 'is-scrolled' : ''}`}>
         <div className="section-shell flex h-[74px] items-center justify-between">
           <Logo />
-          <nav className="hidden items-center gap-7 md:flex" aria-label="Main navigation">
+          <nav className="hidden items-center gap-7 lg:flex" aria-label="Main navigation">
             {navItems.map(([label, href]) => <a key={href} href={href} className="header-link" data-testid={`link-nav-${label.toLowerCase().replace(' ', '-')}`}>{label}</a>)}
           </nav>
-          <div className="hidden items-center gap-4 md:flex">
+          <div className="hidden items-center gap-4 lg:flex">
             <a href="tel:+919555759677" className="flex items-center gap-2 text-[12px] font-semibold text-muted-foreground hover:text-foreground" data-testid="link-header-phone"><Phone className="h-3.5 w-3.5 text-primary" /> 9555759677</a>
             <a href="#quote" className="button-primary flex items-center gap-2 rounded-lg px-4 py-2.5 text-[12px] font-bold" data-testid="button-header-quote">Get a quote <ArrowRight className="h-3.5 w-3.5" /></a>
           </div>
-          <button type="button" className="flex h-10 w-10 items-center justify-center rounded-lg border border-border bg-card text-foreground md:hidden" onClick={() => setMenuOpen(!menuOpen)} aria-label={menuOpen ? 'Close menu' : 'Open menu'} aria-expanded={menuOpen} data-testid="button-mobile-menu">
+          <button type="button" className="flex h-10 w-10 items-center justify-center rounded-lg border border-border bg-card text-foreground lg:hidden" onClick={() => setMenuOpen(!menuOpen)} aria-label={menuOpen ? 'Close menu' : 'Open menu'} aria-expanded={menuOpen} data-testid="button-mobile-menu">
             {menuOpen ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
           </button>
         </div>
         {menuOpen && (
-          <div className="border-t border-border bg-card md:hidden">
+          <div className="border-t border-border bg-card lg:hidden">
             <nav className="section-shell flex flex-col gap-1 py-4" aria-label="Mobile navigation">
               {navItems.map(([label, href]) => <a key={href} href={href} onClick={closeMenu} className="flex items-center justify-between rounded-lg px-3 py-3 text-sm font-semibold hover:bg-secondary" data-testid={`link-mobile-${label.toLowerCase().replace(' ', '-')}`}>{label}<ArrowRight className="h-4 w-4 text-primary" /></a>)}
               <a href="tel:+919555759677" onClick={closeMenu} className="mt-2 flex items-center gap-2 border-t border-border px-3 pt-4 text-sm font-semibold" data-testid="link-mobile-phone"><Phone className="h-4 w-4 text-primary" /> 9555759677</a>
@@ -249,6 +258,24 @@ function Home() {
         </div>
       </div>
 
+      <section className="border-b border-border bg-card" aria-label="Quality commitments">
+        <div className="section-shell grid gap-3 py-5 sm:grid-cols-3">
+          {[
+            [ShieldCheck, 'Quality printing', 'Clear output and careful finishing'],
+            [Factory, 'Wide range of services', 'Print, signage and design in one place'],
+            [Clock3, 'Reliable service', 'Straightforward communication and timing'],
+          ].map(([Icon, title, text], index) => {
+            const QualityIcon = Icon as typeof ShieldCheck;
+            return (
+              <div key={title as string} className="quality-item flex items-center gap-3 rounded-xl border border-border bg-background px-4 py-3" data-testid={`quality-item-${index + 1}`}>
+                <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-primary/10 text-primary"><QualityIcon className="h-4 w-4" /></span>
+                <span><strong className="block text-xs font-bold">{title as string}</strong><small className="mt-0.5 block text-[10px] text-muted-foreground">{text as string}</small></span>
+              </div>
+            );
+          })}
+        </div>
+      </section>
+
       <section id="services" className="section-pad border-b border-border" aria-labelledby="services-title">
         <div className="section-shell">
           <Reveal className="mb-10 flex flex-col justify-between gap-5 md:flex-row md:items-end">
@@ -268,7 +295,8 @@ function Home() {
                     <span className={`flex h-10 w-10 items-center justify-center rounded-lg ${selected ? 'bg-primary text-primary-foreground' : 'bg-secondary text-primary'}`}><Icon className="h-5 w-5" strokeWidth={1.8} /></span>
                     <ArrowRight className="service-arrow h-4 w-4 text-muted-foreground" />
                   </div>
-                  <h3 className="mt-6 text-base font-bold">{service.name}</h3>
+                  <div className="service-swatch mt-6" aria-hidden="true"><span className={`swatch-shape swatch-${index + 1}`} /></div>
+                  <h3 className="mt-4 text-base font-bold">{service.name}</h3>
                   <p className="mt-2 text-[13px] leading-5 text-muted-foreground">{service.description}</p>
                 </button>
               );
@@ -302,7 +330,8 @@ function Home() {
           <div className="mt-10 grid gap-4 md:grid-cols-12">
             <div className="work-tile group relative overflow-hidden rounded-xl border border-border bg-card md:col-span-7" data-testid="work-tile-paper">
               <div className="flex min-h-[290px] items-center justify-center overflow-hidden bg-[#e8e3da] p-8 sm:min-h-[360px]">
-                <div className="relative h-52 w-64 rotate-[-4deg] bg-card p-6 shadow-[0_16px_28px_hsl(218_24%_20%_/_0.14)] sm:h-60 sm:w-80">
+                <img src="/images/stationery-samples.jpg" alt="Representative paper and stationery application" className="absolute inset-0 h-full w-full object-cover opacity-80" />
+                <div className="relative h-52 w-64 rotate-[-4deg] bg-card/95 p-6 shadow-[0_16px_28px_hsl(218_24%_20%_/_0.14)] sm:h-60 sm:w-80">
                   <div className="absolute inset-5 border border-border" />
                   <p className="relative mt-2 text-[9px] font-bold uppercase tracking-[.2em] text-muted-foreground">Paper / offset</p>
                   <p className="display relative mt-12 text-4xl font-extrabold leading-[.92] tracking-[-.08em]">A clear<br /><span className="text-primary">first</span><br />impression.</p>
@@ -313,7 +342,8 @@ function Home() {
             </div>
             <div className="work-tile group relative overflow-hidden rounded-xl border border-border bg-card md:col-span-5" data-testid="work-tile-signage">
               <div className="flex min-h-[290px] items-center justify-center overflow-hidden bg-[#d7e0e5] p-8 sm:min-h-[360px]">
-                <div className="relative w-full max-w-[270px] rounded-lg border border-[#b6c3ca] bg-[#eff3f4] p-7 shadow-[0_12px_25px_hsl(218_24%_20%_/_0.1)]">
+                <img src="/images/storefront-signage.jpg" alt="Representative storefront signage application" className="absolute inset-0 h-full w-full object-cover" />
+                <div className="relative w-full max-w-[270px] rounded-lg border border-white/40 bg-[#eff3f4]/90 p-7 shadow-[0_12px_25px_hsl(218_24%_20%_/_0.1)]">
                   <div className="flex items-center gap-2"><span className="h-3 w-3 rounded-full bg-accent" /><span className="text-[9px] font-bold uppercase tracking-[.16em] text-muted-foreground">Sign board</span></div>
                   <p className="display mt-12 text-3xl font-extrabold leading-none tracking-[-.06em] text-primary">Be easy<br />to find.</p>
                   <div className="mt-6 h-1 w-16 rounded-full bg-accent" />
@@ -324,6 +354,7 @@ function Home() {
             </div>
             <div className="work-tile group relative overflow-hidden rounded-xl border border-border bg-card md:col-span-5" data-testid="work-tile-cards">
               <div className="flex min-h-[230px] items-center justify-center overflow-hidden bg-[#e4e0d8] p-8">
+                <img src="/images/print-studio.jpg" alt="Representative print production application" className="absolute inset-0 h-full w-full object-cover opacity-45" />
                 <div className="relative h-32 w-52 -rotate-6 rounded-lg border border-border bg-card p-4 shadow-[0_12px_22px_hsl(218_24%_20%_/_0.1)]">
                   <span className="text-[8px] font-bold uppercase tracking-[.15em] text-muted-foreground">PVC / cards</span>
                   <span className="absolute bottom-4 left-4 h-2 w-16 rounded bg-primary/70" />
@@ -355,6 +386,10 @@ function Home() {
           </Reveal>
           <Reveal className="lg:pt-2">
             <p className="max-w-2xl text-lg leading-8 text-muted-foreground">New National Advertising provides printing, signage, advertising and graphic design solutions for businesses, brands and individuals.</p>
+            <div className="about-image mt-8 overflow-hidden rounded-2xl border border-border">
+              <img src="/images/print-studio.jpg" alt="Representative print production scene" className="h-56 w-full object-cover sm:h-72" />
+              <div className="flex items-center justify-between border-t border-border bg-secondary px-4 py-3 text-[10px] font-bold uppercase tracking-[.14em] text-muted-foreground"><span>Print production</span><span>Representative image</span></div>
+            </div>
             <div className="mt-10 grid gap-3 sm:grid-cols-2">
               {[
                 ['Quality printing', 'Clear output and thoughtful finishing for the format.'],
@@ -458,6 +493,11 @@ function Home() {
           <div className="mt-10 flex flex-col justify-between gap-3 border-t border-white/15 pt-5 text-[11px] text-white/45 sm:flex-row"><span>© New National Advertising</span><span>Professional printing and advertising services</span></div>
         </div>
       </footer>
+
+      <div className="mobile-contact-bar fixed inset-x-3 bottom-3 z-30 flex items-center gap-2 rounded-2xl border border-white/20 bg-[#172b40]/95 p-2 shadow-[0_14px_30px_hsl(218_30%_15%_/_0.24)] backdrop-blur-md lg:hidden">
+        <a href="tel:+919555759677" className="flex min-h-11 flex-1 items-center justify-center gap-2 rounded-xl bg-card text-xs font-bold text-foreground" data-testid="button-mobile-call"><Phone className="h-4 w-4 text-primary" /> Call</a>
+        <a href={whatsappHref} target="_blank" rel="noreferrer" className="flex min-h-11 flex-1 items-center justify-center gap-2 rounded-xl bg-primary text-xs font-bold text-primary-foreground" data-testid="button-mobile-whatsapp"><MessageCircle className="h-4 w-4" /> WhatsApp</a>
+      </div>
 
       <a href={whatsappHref} target="_blank" rel="noreferrer" className="floating-whatsapp fixed bottom-5 right-5 z-30 flex h-12 w-12 items-center justify-center rounded-full bg-primary text-primary-foreground" aria-label="Chat on WhatsApp" data-testid="button-floating-whatsapp"><MessageCircle className="h-5 w-5" /></a>
     </main>

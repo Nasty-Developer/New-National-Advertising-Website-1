@@ -14,6 +14,8 @@ type Service = {
   description: string;
   details: string[];
   icon: typeof Printer;
+  image: string;
+  imageAlt: string;
 };
 
 const services: Service[] = [
@@ -22,60 +24,80 @@ const services: Service[] = [
     description: 'Professional signs that help people find and remember you.',
     details: ['Acrylic Clip-on Board', 'Crystal Letter', 'LED Signage', 'Steel & Brass Letter', 'Pixel LED', 'Backlit Signage', 'Iron Standee', 'Roll-up Standee', 'Sunboard Cutout'],
     icon: Signpost,
+    image: '/images/service-signboards.jpg',
+    imageAlt: 'Representative dimensional sign board application',
   },
   {
     name: 'Solvent Flex',
     description: 'Outdoor-ready printed graphics for clear, durable visibility.',
     details: ['Star Flex', 'Star Black Back', 'One Way Vision', 'Canvas', 'Gloss Vinyl', 'Matt Vinyl', 'Vinyl with Sunboard', 'Vinyl with Sunpack', 'Backlight Printing'],
     icon: ScanLine,
+    image: '/images/service-solvent-flex.jpg',
+    imageAlt: 'Representative solvent flex and vinyl materials',
   },
   {
     name: 'Offset Printing',
     description: 'Crisp paper printing for business and personal essentials.',
     details: ['Brochure & Catalogues', 'Calendar', 'Letterhead', 'Business Card', 'Bill Book', 'Envelope', 'Wedding Card', 'Flyer & Leaflet', 'Pavti Book', 'Menu Card'],
     icon: FileText,
+    image: '/images/stationery-samples.jpg',
+    imageAlt: 'Representative offset printed stationery samples',
   },
   {
     name: 'Screen Printing',
     description: 'Versatile ink printing across paper, fabric and objects.',
     details: ['Wedding Card', 'Visiting Card', 'Letterhead', 'T-Shirt', 'Envelope', 'Cap', 'Umbrella', 'Carry Bag', 'ID Ribbon', 'School Bag'],
     icon: PenLine,
+    image: '/images/service-screen-printing.jpg',
+    imageAlt: 'Representative screen printed fabric application',
   },
   {
     name: 'Graphics Design',
     description: 'Clear, production-ready design for every touchpoint.',
     details: ['Logo Design', 'Social Media Posts', 'Hoarding Banner', 'Menu Card', 'Flyer', 'Product Packaging', 'Magazine Ads', 'Visiting Card', 'Invitation', 'Brochure', 'Calendar'],
     icon: Sparkles,
+    image: '/images/stationery-samples.jpg',
+    imageAlt: 'Representative graphic design and stationery application',
   },
   {
     name: 'Banner Printing',
     description: 'Large-format communication for events, offers and places.',
     details: ['Promotional Banners', 'Event Backdrops', 'Hoarding Banners', 'Shop Front Banners', 'Directional Banners'],
     icon: Ruler,
+    image: '/images/service-solvent-flex.jpg',
+    imageAlt: 'Representative large-format banner material',
   },
   {
     name: 'Sunboard / Sunpack',
     description: 'Lightweight rigid displays with a clean, firm finish.',
     details: ['Mounted Graphics', 'Retail Displays', 'Indoor Signage', 'Sunboard Cutout', 'Vinyl with Sunpack'],
     icon: Layers3,
+    image: '/images/storefront-signage.jpg',
+    imageAlt: 'Representative mounted storefront display',
   },
   {
     name: 'PVC Cards',
     description: 'Neat, durable cards for everyday professional use.',
     details: ['Visiting Cards', 'ID Cards', 'Membership Cards', 'Loyalty Cards', 'Access Cards'],
     icon: FileText,
+    image: '/images/service-digital-printing.jpg',
+    imageAlt: 'Representative digitally printed cards',
   },
   {
     name: 'Wooden / MS Frames',
     description: 'Practical framed solutions for signs and displays.',
     details: ['Wooden Frames', 'MS Frames', 'Mounted Signage', 'Display Structures', 'Custom Frames'],
     icon: Ruler,
+    image: '/images/storefront-signage.jpg',
+    imageAlt: 'Representative framed signage application',
   },
   {
     name: 'Digital Printing',
     description: 'Flexible short-run print for timely, polished output.',
     details: ['Visiting Card', 'Brochure', 'Catalogue', 'Pamphlet', 'Poster', 'Annual Reports', 'UV Print', 'Hotel Menu', 'Hospital File', 'Trophy Sticker'],
     icon: Printer,
+    image: '/images/service-digital-printing.jpg',
+    imageAlt: 'Representative digital printing applications',
   },
 ];
 

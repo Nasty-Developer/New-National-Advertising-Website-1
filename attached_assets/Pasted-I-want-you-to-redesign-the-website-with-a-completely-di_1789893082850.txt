@@ -1,0 +1,550 @@
+I want you to redesign the website with a completely different visual direction.
+
+IMPORTANT:
+Do NOT make the website overly artistic, flashy, experimental, futuristic, or overly animated.
+
+The new direction should be:
+
+PROFESSIONAL
+MINIMAL
+SOFT
+CLEAN
+ELEGANT
+PREMIUM
+TRUSTWORTHY
+MODERN
+
+Think of a high-quality professional printing and advertising company website, not an experimental design studio.
+
+==================================================
+OVERALL DESIGN DIRECTION
+==================================================
+
+Create a clean and sophisticated visual system.
+
+The website should have:
+
+- lots of clean whitespace
+- soft neutral backgrounds
+- elegant typography
+- subtle borders
+- gentle shadows
+- rounded corners used carefully
+- excellent spacing
+- clear visual hierarchy
+- restrained animations
+- professional imagery
+- very clean sections
+
+The website should immediately make a customer feel:
+
+"This is a professional company I can trust with my printing and advertising work."
+
+Avoid anything that feels cheap, noisy, crowded, or overly flashy.
+
+==================================================
+COLOR PALETTE
+==================================================
+
+Use a soft professional palette.
+
+Primary:
+Warm white / off-white
+
+Secondary:
+Very light grey
+Soft charcoal
+Dark grey
+
+Accent:
+A subtle professional blue OR muted red.
+
+Do NOT use:
+- neon colors
+- excessive gradients
+- strong glowing effects
+- excessive black backgrounds
+- purple-heavy UI
+- overly saturated colors
+
+The overall page should feel bright, calm and premium.
+
+==================================================
+TYPOGRAPHY
+==================================================
+
+Use a beautiful modern sans-serif font.
+
+Headings:
+Strong but elegant.
+
+Body:
+Simple, highly readable and clean.
+
+Do not use extremely oversized typography everywhere.
+
+Typography should feel balanced and professional.
+
+==================================================
+HEADER
+==================================================
+
+Create a clean sticky header.
+
+Left:
+NEW NATIONAL
+ADVERTISING
+
+Navigation:
+
+Home
+Services
+About
+Our Work
+Contact
+
+Right:
+GET A QUOTE
+
+Header should have:
+- white/soft background
+- subtle bottom border
+- gentle shadow when scrolling
+- smooth transition
+
+Mobile navigation should be clean and simple.
+
+==================================================
+HERO
+==================================================
+
+Keep the hero minimal.
+
+Do NOT create a huge dramatic cinematic hero.
+
+Create a clean professional introduction:
+
+NEW NATIONAL ADVERTISING
+
+"Printing, Signage & Design Solutions"
+
+Supporting text:
+
+Professional printing, advertising, signage and graphic design solutions for businesses, brands and individuals.
+
+Buttons:
+
+GET A QUOTE
+VIEW SERVICES
+
+Use a tasteful image or visual composition related to printing/signage.
+
+The hero should have generous whitespace.
+
+Use only subtle entrance animations.
+
+==================================================
+SERVICES
+==================================================
+
+Create:
+
+OUR SERVICES
+
+Use clean service cards.
+
+The cards should be simple and elegant, not overly complicated.
+
+Services:
+
+Solvent Flex
+Offset Printing
+Screen Printing
+Digital Printing
+Sign Boards
+Graphics Design
+Banner Printing
+Sunboard / Sunpack
+PVC Cards
+Wooden / MS Frames
+
+Each card should have:
+
+- simple icon
+- service title
+- short description
+- small arrow
+
+On hover:
+- very subtle elevation
+- slight border/color change
+- arrow moves slightly
+
+NO dramatic transformations.
+
+==================================================
+SERVICE DETAILS
+==================================================
+
+Show the actual services from the supplied photographs.
+
+SOLVENT FLEX
+
+- Star Flex
+- Star Black Back
+- One Way Vision
+- Canvas
+- Gloss Vinyl
+- Matt Vinyl
+- Vinyl with Sunboard
+- Vinyl with Sunpack
+- Backlight Printing
+
+OFFSET PRINTING
+
+- Brochure & Catalogues
+- Calendar
+- Letterhead
+- Business Card
+- Bill Book
+- Envelope
+- Wedding Card
+- Flyer & Leaflet
+- Pavti Book
+- Menu Card
+
+SCREEN PRINTING
+
+- Wedding Card
+- Visiting Card
+- Letterhead
+- T-Shirt
+- Envelope
+- Cap
+- Umbrella
+- Carry Bag
+- ID Ribbon
+- School Bag
+
+DIGITAL PRINTING
+
+- Visiting Card
+- Brochure
+- Catalogue
+- Pamphlet
+- Poster
+- Annual Reports
+- UV Print
+- Hotel Menu
+- Hospital File
+- Trophy Sticker
+
+SIGN BOARDS
+
+- Acrylic Clip-on Board
+- Crystal Letter
+- LED Signage
+- Steel & Brass Letter
+- Pixel LED
+- Backlit Signage
+- Iron Standee
+- Roll-up Standee
+- Sunboard Cutout
+
+GRAPHICS DESIGN
+
+- Logo Design
+- Social Media Posts
+- Hoarding Banner
+- Menu Card
+- Flyer
+- Product Packaging
+- Magazine Ads
+- Visiting Card
+- Invitation
+- Brochure
+- Calendar
+
+==================================================
+OUR WORK
+==================================================
+
+Create a clean portfolio section.
+
+Title:
+
+OUR WORK
+
+Use an elegant grid.
+
+Do not create an overly artistic masonry layout.
+
+Use consistent image proportions and clean spacing.
+
+Hover interaction should be subtle:
+- slight image zoom
+- soft overlay
+- project title appears
+
+If actual business photos are available, use them.
+
+Do not invent clients or projects.
+
+==================================================
+WHY CHOOSE US
+==================================================
+
+Create a simple professional section.
+
+Possible points:
+
+Quality Printing
+Professional Design
+Wide Range of Services
+Reliable Service
+Custom Solutions
+
+Do NOT invent statistics, awards, years of experience or customer numbers.
+
+==================================================
+PROCESS
+==================================================
+
+Create a clean 4-step section:
+
+01
+DISCUSS
+
+02
+DESIGN
+
+03
+PRINT
+
+04
+DELIVER
+
+Use simple typography and subtle connecting lines.
+
+No excessive animations.
+
+==================================================
+ABOUT
+==================================================
+
+Create:
+
+ABOUT NEW NATIONAL ADVERTISING
+
+Copy should be professional and concise:
+
+"New National Advertising provides printing, signage, advertising and graphic design solutions for businesses, brands and individuals."
+
+Do not claim information that has not been verified.
+
+==================================================
+CONTACT
+==================================================
+
+Create a clean contact section.
+
+Headline:
+
+LET'S WORK TOGETHER
+
+Text:
+
+Have a printing, signage or design requirement?
+Get in touch with New National Advertising.
+
+Primary CTA:
+
+GET A QUOTE
+
+Contact information:
+
+9555759677
+
+7506269783
+
+8898805753
+
+Email:
+
+newnationaladv2022@gmail.com
+
+Location:
+
+Mumbai, Maharashtra, India
+
+==================================================
+WHATSAPP
+==================================================
+
+WhatsApp button:
+
+https://wa.me/919555759677
+
+Prefilled message:
+
+Hello New National Advertising, I would like to enquire about your printing and advertising services.
+
+Phone:
+
+tel:+919555759677
+
+Email:
+
+mailto:newnationaladv2022@gmail.com
+
+==================================================
+QUOTE FORM
+==================================================
+
+Create a minimal professional form.
+
+Fields:
+
+Name
+Phone
+Email
+Service
+Project Details
+Quantity
+Upload File
+
+Button:
+
+REQUEST A QUOTE
+
+Use clean inputs with soft borders and subtle focus states.
+
+==================================================
+ANIMATIONS
+==================================================
+
+This is VERY IMPORTANT.
+
+Use animations, but keep them subtle.
+
+Use:
+
+- fade-in
+- gentle slide-up
+- slight image reveal
+- smooth hover states
+- subtle button transitions
+- smooth scrolling
+- navbar transition
+
+Do NOT use:
+
+- giant text animations
+- excessive parallax
+- spinning objects
+- 3D effects
+- distorted text
+- flashy cursor
+- excessive floating elements
+- aggressive transitions
+- excessive blur
+- glowing effects
+
+The animation should make the website feel polished, not distracting.
+
+==================================================
+UI/UX
+==================================================
+
+Focus heavily on:
+
+- spacing
+- alignment
+- readability
+- consistency
+- accessibility
+- responsive design
+- easy navigation
+- clear CTAs
+
+Every section should have breathing room.
+
+Do not overcrowd the page.
+
+The user should immediately understand:
+
+WHO WE ARE
+WHAT WE DO
+WHAT SERVICES WE OFFER
+HOW TO CONTACT US
+
+==================================================
+MOBILE DESIGN
+==================================================
+
+The mobile website must be exceptionally clean.
+
+Use:
+
+- simple hamburger menu
+- readable typography
+- full-width service cards
+- comfortable spacing
+- thumb-friendly buttons
+- no horizontal scrolling
+- simple contact bar
+
+Do not simply shrink the desktop version.
+
+==================================================
+FOOTER
+==================================================
+
+Create a clean professional footer.
+
+NEW NATIONAL ADVERTISING
+
+Printing • Signage • Design • Advertising
+
+Contact:
+9555759677
+
+Email:
+newnationaladv2022@gmail.com
+
+Mumbai, Maharashtra, India
+
+==================================================
+FINAL DESIGN RULE
+==================================================
+
+The website should feel like:
+
+"A premium, established, professional printing and advertising company."
+
+NOT:
+
+"A flashy AI-generated creative agency website."
+
+Keep everything:
+
+SOFT
+MINIMAL
+PROFESSIONAL
+ELEGANT
+CLEAN
+PREMIUM
+
+Use whitespace intelligently.
+
+Use subtle animations.
+
+Use beautiful typography.
+
+Use consistent spacing.
+
+Use polished UI components.
+
+The final result should look expensive because of its simplicity and attention to detail, not because of excessive effects.
+
+Please redesign the entire existing UI according to this direction while keeping the real business information and services.

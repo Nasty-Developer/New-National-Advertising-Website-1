@@ -18,6 +18,12 @@ type Service = {
 
 const services: Service[] = [
   {
+    name: 'Sign Boards',
+    description: 'Professional signs that help people find and remember you.',
+    details: ['Acrylic Clip-on Board', 'Crystal Letter', 'LED Signage', 'Steel & Brass Letter', 'Pixel LED', 'Backlit Signage', 'Iron Standee', 'Roll-up Standee', 'Sunboard Cutout'],
+    icon: Signpost,
+  },
+  {
     name: 'Solvent Flex',
     description: 'Outdoor-ready printed graphics for clear, durable visibility.',
     details: ['Star Flex', 'Star Black Back', 'One Way Vision', 'Canvas', 'Gloss Vinyl', 'Matt Vinyl', 'Vinyl with Sunboard', 'Vinyl with Sunpack', 'Backlight Printing'],
@@ -34,18 +40,6 @@ const services: Service[] = [
     description: 'Versatile ink printing across paper, fabric and objects.',
     details: ['Wedding Card', 'Visiting Card', 'Letterhead', 'T-Shirt', 'Envelope', 'Cap', 'Umbrella', 'Carry Bag', 'ID Ribbon', 'School Bag'],
     icon: PenLine,
-  },
-  {
-    name: 'Digital Printing',
-    description: 'Flexible short-run print for timely, polished output.',
-    details: ['Visiting Card', 'Brochure', 'Catalogue', 'Pamphlet', 'Poster', 'Annual Reports', 'UV Print', 'Hotel Menu', 'Hospital File', 'Trophy Sticker'],
-    icon: Printer,
-  },
-  {
-    name: 'Sign Boards',
-    description: 'Professional signs that help people find and remember you.',
-    details: ['Acrylic Clip-on Board', 'Crystal Letter', 'LED Signage', 'Steel & Brass Letter', 'Pixel LED', 'Backlit Signage', 'Iron Standee', 'Roll-up Standee', 'Sunboard Cutout'],
-    icon: Signpost,
   },
   {
     name: 'Graphics Design',
@@ -76,6 +70,12 @@ const services: Service[] = [
     description: 'Practical framed solutions for signs and displays.',
     details: ['Wooden Frames', 'MS Frames', 'Mounted Signage', 'Display Structures', 'Custom Frames'],
     icon: Ruler,
+  },
+  {
+    name: 'Digital Printing',
+    description: 'Flexible short-run print for timely, polished output.',
+    details: ['Visiting Card', 'Brochure', 'Catalogue', 'Pamphlet', 'Poster', 'Annual Reports', 'UV Print', 'Hotel Menu', 'Hospital File', 'Trophy Sticker'],
+    icon: Printer,
   },
 ];
 
